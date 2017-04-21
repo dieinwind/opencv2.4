@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_arithm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_countnonzero.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_ds.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_dxt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_eigen.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_io.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_mat.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_math.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_misc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_operations.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_rand.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_test_core_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\core\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\machine_vision\code\opencv_source\sources\modules\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{930970E6-C7BC-44C1-A861-86DE73964933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B6122701-5E1D-404D-A91F-5981F672758C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{633EE07A-4918-4255-AEDE-E8C7FD60A659}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

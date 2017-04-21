@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\adaptiveskindetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\ba.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\basicretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\bowmsctrainer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\chamfermatching.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\chowliutree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\colormap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\colortracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\contrib_init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\detection_based_tracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\facerec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\featuretracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\fuzzymeanshifttracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\gencolors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\hybridtracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\imagelogpolprojection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\inputoutput.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\lda.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\logpolar_bsm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\magnoretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\octree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\openfabmap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\parvoretinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\polyfit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\retina.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\retinacolor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\retinafilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\rgbdodometry.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\selfsimilarity.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\spinimages.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\stereovar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_contrib_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\include\opencv2\contrib\contrib.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\include\opencv2\contrib\detection_based_tracker.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\include\opencv2\contrib\hybridtracker.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\include\opencv2\contrib\openfabmap.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\include\opencv2\contrib\retina.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\basicretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\imagelogpolprojection.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\magnoretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\parvoretinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\retinacolor.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\retinafilter.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\src\templatebuffer.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\machine_vision\code\opencv_source\sources\modules\contrib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{930970E6-C7BC-44C1-A861-86DE73964933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AB84CC19-1177-4C53-97D8-750175A36DBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B6122701-5E1D-404D-A91F-5981F672758C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{633EE07A-4918-4255-AEDE-E8C7FD60A659}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

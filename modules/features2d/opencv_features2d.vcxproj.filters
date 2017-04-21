@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\bagofwords.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\blobdetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\brief.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\brisk.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\descriptors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\detectors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\draw.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\dynamic.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\evaluation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\fast.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\fast_score.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\features2d_init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\freak.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\keypoint.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\matchers.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\mser.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\orb.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\stardetector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_features2d_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\include\opencv2\features2d.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\include\opencv2\features2d\features2d.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\fast_score.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\machine_vision\code\opencv_source\sources\modules\features2d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{930970E6-C7BC-44C1-A861-86DE73964933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AB84CC19-1177-4C53-97D8-750175A36DBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B6122701-5E1D-404D-A91F-5981F672758C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{633EE07A-4918-4255-AEDE-E8C7FD60A659}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\btv_l1.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\btv_l1_gpu.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\btv_l1_ocl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\frame_source.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\input_array_utility.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\optical_flow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\super_resolution.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_superres_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\superres\include\opencv2\superres.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\superres\include\opencv2\superres\optical_flow.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\superres\include\opencv2\superres\superres.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="opencl_kernels.hpp">
+      <Filter>OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\input_array_utility.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\ring_buffer.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cvconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\machine_vision\code\opencv_source\sources\modules\superres\CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\ff399de257771a86f697b4eeca224326\opencl_kernels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\opencl\superres_btvl1.cl">
+      <Filter>OpenCL</Filter>
+    </None>
+    <None Include="D:\machine_vision\code\opencv_source\sources\modules\superres\src\cuda\btv_l1_gpu.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{930970E6-C7BC-44C1-A861-86DE73964933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AB84CC19-1177-4C53-97D8-750175A36DBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A810AB63-AE55-44BF-A928-B57E1F44C6B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B6122701-5E1D-404D-A91F-5981F672758C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL">
+      <UniqueIdentifier>{657D0B3A-5281-42F6-8F41-ACC2B92B7713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{633EE07A-4918-4255-AEDE-E8C7FD60A659}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{21D86697-9EEA-4A63-B483-B43D0F40EB10}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_perf_tests</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\machine_vision\code\opencv_source\sources\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/machine_vision/code/opencv_source/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/machine_vision/code/opencv_source/sources -B. --check-stamp-file D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/machine_vision/code/opencv_source/sources/CMakeLists.txt;D:\machine_vision\code\opencv_source\sources\CMakeLists.txt;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeSystem.cmake;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVUtils.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectCXXCompiler.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVLegacyOptions.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVVersion.cmake;D:\machine_vision\code\opencv_source\sources\modules\core\include\opencv2\core\version.hpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVCompilerOptions.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVCRTLinkage.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\winrttest.cpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVPCHSupport.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVModule.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\TestBigEndian.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsGrfmt.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsGUI.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\win32uitest.cpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsVideo.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\vfwtest.cpp;D:\machine_vision\code\opencv_source\sources\3rdparty\ffmpeg\ffmpeg_version.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsPerf.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectCUDA.cmake;D:\machine_vision\code\opencv_source\sources\cmake\FindCUDA.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLATEX.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectPython.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectApacheAnt.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectOpenCL.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\opencl.cpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectVTK.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVExtraTargets.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\cmake_uninstall.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenHeaders.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\cvconfig.h.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\opencv_modules.hpp.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenPkgconfig.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\opencv-XXX.pc.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenAndroidMK.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenConfig.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenInfoPlist.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVPackaging.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/machine_vision/code/opencv_source/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/machine_vision/code/opencv_source/sources -B. --check-stamp-file D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/machine_vision/code/opencv_source/sources/CMakeLists.txt;D:\machine_vision\code\opencv_source\sources\CMakeLists.txt;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeSystem.cmake;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVUtils.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectCXXCompiler.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVLegacyOptions.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVVersion.cmake;D:\machine_vision\code\opencv_source\sources\modules\core\include\opencv2\core\version.hpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVCompilerOptions.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVCRTLinkage.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\winrttest.cpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVPCHSupport.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVModule.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\TestBigEndian.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsGrfmt.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsGUI.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\win32uitest.cpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsVideo.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\vfwtest.cpp;D:\machine_vision\code\opencv_source\sources\3rdparty\ffmpeg\ffmpeg_version.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLibsPerf.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectCUDA.cmake;D:\machine_vision\code\opencv_source\sources\cmake\FindCUDA.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVFindLATEX.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectPython.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectApacheAnt.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindJNI.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectOpenCL.cmake;D:\machine_vision\code\opencv_source\sources\cmake\checks\opencl.cpp;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVDetectVTK.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVExtraTargets.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\cmake_uninstall.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenHeaders.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\cvconfig.h.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\opencv_modules.hpp.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenPkgconfig.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\opencv-XXX.pc.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenAndroidMK.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenConfig.cmake;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\templates\OpenCVConfig-version.cmake.in;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVGenInfoPlist.cmake;D:\machine_vision\code\opencv_source\sources\cmake\OpenCVPackaging.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;D:\machine_vision\code\opencv_source\sources\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\e847d8a7bfec76858af391792d2d254d\opencv_perf_tests.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/machine_vision/code/opencv_source/VS2013_proj/CMakeFiles/e847d8a7bfec76858af391792d2d254d/opencv_perf_tests.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\opencv_perf_tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/machine_vision/code/opencv_source/VS2013_proj/CMakeFiles/e847d8a7bfec76858af391792d2d254d/opencv_perf_tests.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\CMakeFiles\opencv_perf_tests</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\opencv_perf_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/ZERO_CHECK.vcxproj">
+      <Project>D2563C6E-C79F-4E06-A61C-C404635E4864</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/calib3d/opencv_perf_calib3d.vcxproj">
+      <Project>88782F39-6BD6-4BCB-8745-17A94C4899D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/core/opencv_perf_core.vcxproj">
+      <Project>B53AF472-99C1-46AA-B071-EBC69BE0D723</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/features2d/opencv_perf_features2d.vcxproj">
+      <Project>74C046C6-2ED2-4D21-86C1-2838D0C22331</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/gpu/opencv_perf_gpu.vcxproj">
+      <Project>085294F3-8417-4B6B-BCCB-0AEE84317D19</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/highgui/opencv_perf_highgui.vcxproj">
+      <Project>9DC16E1E-0A36-46E6-AABF-78B0E012C3A0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/imgproc/opencv_perf_imgproc.vcxproj">
+      <Project>A0CAA614-F8A1-4D4F-A1C7-C3A9502FFC84</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/nonfree/opencv_perf_nonfree.vcxproj">
+      <Project>9BA3F56E-F514-44CE-9779-4BF709E222D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/objdetect/opencv_perf_objdetect.vcxproj">
+      <Project>E7CF77F3-49BB-4DAD-BA96-5075296F7C9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/ocl/opencv_perf_ocl.vcxproj">
+      <Project>2565FE6F-CE1E-4224-B745-A9AA772FD4CF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/photo/opencv_perf_photo.vcxproj">
+      <Project>02C3EB1C-5191-4E9E-862D-95539E8585CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/stitching/opencv_perf_stitching.vcxproj">
+      <Project>B7F4C700-7542-44D7-A198-22C347E66364</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/superres/opencv_perf_superres.vcxproj">
+      <Project>F82AF500-C5CB-4DCC-A9CD-2E7A13302D92</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/modules/video/opencv_perf_video.vcxproj">
+      <Project>AFE81E87-7F51-4742-92E3-C1CC63CDBE68</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

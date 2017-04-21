@@ -1,0 +1,77 @@
+# CMake generation dependency list for this directory.
+D:/machine_vision/code/opencv_source/sources/CMakeLists.txt
+D:/machine_vision/code/opencv_source/VS2013_proj/CMakeFiles/2.8.12.2/CMakeSystem.cmake
+D:/machine_vision/code/opencv_source/VS2013_proj/CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake
+D:/machine_vision/code/opencv_source/VS2013_proj/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+D:/machine_vision/code/opencv_source/VS2013_proj/CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVUtils.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVDetectCXXCompiler.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVLegacyOptions.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVVersion.cmake
+D:/machine_vision/code/opencv_source/sources/modules/core/include/opencv2/core/version.hpp
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVCompilerOptions.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVCRTLinkage.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/checks/winrttest.cpp
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVPCHSupport.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVModule.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestBigEndian.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVFindLibsGrfmt.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVFindLibsGUI.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/checks/win32uitest.cpp
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVFindLibsVideo.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/checks/vfwtest.cpp
+D:/machine_vision/code/opencv_source/sources/3rdparty/ffmpeg/ffmpeg_version.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVFindLibsPerf.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVDetectCUDA.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/FindCUDA.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVFindLATEX.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVDetectPython.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPythonInterp.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVDetectApacheAnt.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindJNI.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVDetectOpenCL.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/checks/opencl.cpp
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVDetectVTK.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVExtraTargets.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/templates/cmake_uninstall.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVGenHeaders.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/templates/cvconfig.h.in
+D:/machine_vision/code/opencv_source/sources/cmake/templates/opencv_modules.hpp.in
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVGenPkgconfig.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/templates/opencv-XXX.pc.in
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVGenAndroidMK.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVGenConfig.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/templates/OpenCVConfig.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/templates/OpenCVConfig-version.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/templates/OpenCVConfig.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/templates/OpenCVConfig-version.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/templates/OpenCVConfig.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/templates/OpenCVConfig-version.cmake.in
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVGenInfoPlist.cmake
+D:/machine_vision/code/opencv_source/sources/cmake/OpenCVPackaging.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPack.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in

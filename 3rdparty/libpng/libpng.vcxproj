@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BBD72B33-1CE7-4B76-83F5-967757C9C5D7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libpng</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libpng.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libpngd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libpng.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libpng</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng;D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;PNG_CONFIGURE_LIBPNG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;PNG_CONFIGURE_LIBPNG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng;D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng;D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng;D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;PNG_CONFIGURE_LIBPNG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;PNG_CONFIGURE_LIBPNG;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng;D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\zlib;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng;D:\machine_vision\code\opencv_source\VS2013_proj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/machine_vision/code/opencv_source/sources/3rdparty/libpng/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/machine_vision/code/opencv_source/sources -B../.. --check-stamp-file D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\libpng\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/machine_vision/code/opencv_source/sources/3rdparty/libpng/CMakeLists.txt;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\CMakeLists.txt;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\libpng\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/machine_vision/code/opencv_source/sources/3rdparty/libpng/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/machine_vision/code/opencv_source/sources -B../.. --check-stamp-file D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\libpng\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/machine_vision/code/opencv_source/sources/3rdparty/libpng/CMakeLists.txt;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\CMakeLists.txt;D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\machine_vision\code\opencv_source\VS2013_proj\3rdparty\libpng\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\png.h" />
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngconf.h" />
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngdebug.h" />
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pnginfo.h" />
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pnglibconf.h" />
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngpriv.h" />
+    <ClInclude Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngstruct.h" />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\png.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngerror.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngget.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngmem.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngpread.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngread.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngrio.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngrtran.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngrutil.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngset.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngtrans.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngwio.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngwrite.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngwtran.c"  />
+    <ClCompile Include="D:\machine_vision\code\opencv_source\sources\3rdparty\libpng\pngwutil.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/ZERO_CHECK.vcxproj">
+      <Project>D2563C6E-C79F-4E06-A61C-C404635E4864</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/machine_vision/code/opencv_source/VS2013_proj/3rdparty/zlib/zlib.vcxproj">
+      <Project>889B6B3B-1867-4A70-B075-A4950C3B8C9A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
